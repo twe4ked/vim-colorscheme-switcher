@@ -21,4 +21,10 @@ Set the list of color schemes used by the above (default is 'all').
 * `:SetColors` - Display current scheme names
 * `:SetColors now` - Set the current color scheme based on time of day
 
+You can use the following autocommand to automatically set up your normal colorshemes.
+
+```
+autocmd VimEnter * :silent! SetColors bclear solarized jellybeans
+```
+
 [wikia]: http://vim.wikia.com/wiki/VimTip341
